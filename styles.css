@@ -27,6 +27,7 @@
     width: 25%;
     height: fit-content;
     justify-content: space-evenly;
+    margin-top: 1.5%;
 }
 .hmid p {
     /* border: solid 1px green; */
@@ -42,5 +43,44 @@
     width: 20%;
     justify-content: space-evenly;
     font-size: 20px;
+    margin-top: 1.5%;
 }
 
+.bottom {
+    min-height: 600px;
+    border: 1px solid red;
+    display: flex;
+}
+
+.cart {
+    font-size: 32px;
+    border: solid 1px green;
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    margin-top: 3%;
+    margin-left:10%
+}
+.docs {
+    height: 200px;
+    width: 25%;
+    border: solid 1px blue;
+    display: flex;
+    margin-top: 8%;
+    margin-left: -9%;
+}
+.fa-trash-can {
+    font-size: 24px;
+    /* border: solid 1px green; */
+    /* border-radius: 25%; */
+    display: flex;
+}
+/* .googledocs {
+    height: 70%;
+    width: 30%;
+    border: solid 1px red;
+    display: flex
+}
+.googledocs img {
+    width: 100%;
+} */
