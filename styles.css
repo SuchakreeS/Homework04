@@ -4,12 +4,17 @@
     box-sizing: border-box;
 }
 
+    body {
+        height: 100%;
+        width: 100%;
+    }
+
 .head {
     display: flex;
     flex-basis: 100%;
     border: solid 2px black;
     justify-content: space-between;
-    height: 10%;
+    height: fit-content
 
 }
 .hleft {
@@ -46,12 +51,14 @@
     margin-top: 1.5%;
 }
 
+
+
 .bottom {
-    min-height: 600px;
     border: 1px solid red;
     display: flex;
+    justify-content: space-around;
+    
 }
-
 .cart {
     font-size: 32px;
     border: solid 1px green;
@@ -61,26 +68,48 @@
     margin-top: 3%;
     margin-left:10%
 }
+
+
+.left {
+    border: solid 1px green;
+    margin-top: 5%;
+    margin-left: -10%;
+    display: flex;
+    flex-direction: column;
+}
 .docs {
-    height: 200px;
-    width: 25%;
     border: solid 1px blue;
     display: flex;
-    margin-top: 8%;
-    margin-left: -9%;
 }
 .fa-trash-can {
     font-size: 24px;
-    /* border: solid 1px green; */
-    /* border-radius: 25%; */
+    top: 45%;
+    left: 5%; 
+    color: #00dcb5;
+    height: fit-content;
+    display: flex;
+    margin-top: 50%;
+}
+.googledocs {
+    border: solid 1px black;
+    display: flex;
+    background-color: aqua;
+}
+.docs .fa-file-lines {
+    color: #83c1fc;
+}
+.gdocs {
+    font-size: 24px;
+    /* position: absolute; */
+}
+
+.slide {
+    border: solid 1px red;
+    display: flex;
+    margin-top: 5%;
+}
+
+
+.order {
     display: flex;
 }
-/* .googledocs {
-    height: 70%;
-    width: 30%;
-    border: solid 1px red;
-    display: flex
-}
-.googledocs img {
-    width: 100%;
-} */
